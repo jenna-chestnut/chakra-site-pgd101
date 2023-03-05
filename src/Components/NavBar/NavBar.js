@@ -35,8 +35,10 @@ function NavBar() {
           <a className="dropdown-item" href="/third-eye">Third Eye</a>
           <a className="dropdown-item" href="/crown">Crown</a>
           <a className="dropdown-item" href="/all">All Chakras</a>
-          <a className="dropdown-item" href="/resources">Resources</a>
           </div>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/resources">Resources</a>
         </li>
       </ul>
     </div>

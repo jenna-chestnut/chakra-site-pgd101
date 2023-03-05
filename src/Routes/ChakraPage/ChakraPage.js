@@ -48,7 +48,7 @@ function ChakraPage(chakraLink) {
 						<h1
 							style={{ color: hexCode }}
 							className={
-								name && name === 'Entire Kundalini System' && 'all-chakra'
+								`${name && name === 'Entire Kundalini System' && 'all-chakra'}`
 							}
 						>
 							{name || 'Fake'}
@@ -77,7 +77,7 @@ function ChakraPage(chakraLink) {
 									<span
 										style={{ color: hexCode }}
 										className={
-											name && name === 'Entire Kundalini System' && 'all-chakra'
+											`${name && name === 'Entire Kundalini System' && 'all-chakra'}`
 										}
 									>
 										{chakraColor
@@ -108,11 +108,11 @@ function ChakraPage(chakraLink) {
 					{affirmations && (
 						<div className="affirmations add-space">
 							<h1>Affirmations</h1>
-							<div class="scroll-container">
-								<p class="scroll">
+							<div className="scroll-container">
+								<p className="scroll">
 									<span>{affirmations || 'Affirmations'}</span>
 								</p>
-								<p class="scroll scroll-2">
+								<p className="scroll scroll-2">
 									<span>{affirmations || 'Affirmations'}</span>
 								</p>
 							</div>
@@ -130,9 +130,8 @@ function ChakraPage(chakraLink) {
 								<iframe
 									src={meditation}
 									title="YouTube video player"
-									frameborder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-									allowfullscreen
+									allowFullScreen
 								></iframe>
 							</div>
 							<div className="add-space">

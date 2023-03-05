@@ -12,7 +12,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="red"
 						/>
 					</svg>
@@ -28,7 +28,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="orange"
 						/>
 					</svg>
@@ -44,7 +44,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="yellow"
 						/>
 					</svg>
@@ -60,7 +60,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="#00ff00"
 						/>
 					</svg>
@@ -76,7 +76,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="#00fff2"
 						/>
 					</svg>
@@ -92,7 +92,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="#6877ff"
 						/>
 					</svg>
@@ -108,7 +108,7 @@ function ChakraSVG() {
 							cy="25"
 							r="20"
 							stroke="white"
-							stroke-width="3"
+							strokeWidth="3"
 							fill="violet"
 						/>
 					</svg>
@@ -122,7 +122,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="red"
 					/>
 				</svg>
@@ -136,7 +136,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="orange"
 					/>
 				</svg>
@@ -150,7 +150,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="yellow"
 					/>
 				</svg>
@@ -164,7 +164,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="#00ff00"
 					/>
 				</svg>
@@ -178,7 +178,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="#00fff2"
 					/>
 				</svg>
@@ -192,7 +192,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="#6877ff"
 					/>
 				</svg>
@@ -206,7 +206,7 @@ function ChakraSVG() {
 						cy="20"
 						r="15"
 						stroke="white"
-						stroke-width="3"
+						strokeWidth="3"
 						fill="violet"
 					/>
 				</svg>
