@@ -1,0 +1,197 @@
+.chakra-description {
+	padding: 5% 5%;
+}
+
+.chakra-page {
+	background-image: url('../../img/jr-korpa-unsplash.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.chakra-header {
+	background: none;
+}
+
+.chakra-description h1 {
+	font-weight: bold;
+	font-size: 3.3rem;
+}
+.chakra-description p {
+	font-size: 1.3rem;
+	line-height: 1.5;
+	text-align: left;
+	padding: 15px 0px;
+}
+
+p.quiz-result {
+	text-align: center;
+	font-style: italic;
+}
+
+.header .chakra-description h2,
+.chakra-description h3 {
+	text-align: left;
+}
+
+.header .chakra-description h2,
+.chakra-description h2,
+.col h2,
+.healing h2 {
+	font-family: Geomanist;
+	color: #ffffff;
+	font-size: 2.3rem;
+}
+
+.benefits,
+.benefits p,
+.healing h1 {
+	text-align: center;
+}
+
+.chakra-description button {
+	border: 1px solid #3a944e;
+	background: #3a944e;
+	border-radius: 0;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.chakra-description button:hover {
+	border: 1px solid #fff;
+	background: #fff;
+	color: #3e649e;
+}
+
+.chakra-description img {
+	width: 100%;
+}
+
+.healing {
+	padding-bottom: 155px;
+}
+
+.scroll-container {
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+}
+.scroll-container p {
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+.scroll span {
+	font-size: 2rem;
+	margin-top: 15px;
+	display: inline-block;
+	padding-left: 100%;
+	animation: my-animation 60s linear infinite;
+	animation-delay: -30s;
+	margin-left: 22px;
+}
+.scroll-2 span {
+	animation-delay: 1s;
+}
+@keyframes my-animation {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+
+.affirmations {
+	background-image: url('../../img/space-bg.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 55px 0px 150px 0px;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+}
+
+.meditation {
+	padding: 45px 0px 25px 0px;
+	margin: auto 15%;
+}
+
+.meditation h2 {
+	font-size: 1.6rem;
+}
+
+.video-container {
+	position: relative;
+	margin-top: 40px;
+	width: 100%;
+	padding-top: 56.25%;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.healing img {
+	display: block;
+	margin: 65px auto;
+	width: 100%;
+	max-width: 150px;
+}
+
+.header h2.chakra-second {
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: 7px;
+	margin-bottom: 45px;
+	font-size: 1.5rem;
+}
+
+.add-space {
+	padding-top: 150px;
+}
+
+p.chakra-bullet {
+	text-align: left;
+	margin: 45px auto;
+	font-size: 30px;
+}
+
+.indented {
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+
+.all-chakra {
+	background: -webkit-linear-gradient(
+		0deg,
+		rgba(255, 0, 0, 1) 20%,
+		rgba(208, 222, 33, 1) 40%,
+		rgba(47, 201, 226, 1) 60%,
+		rgba(186, 12, 248, 1) 80%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+	.about-chakra {
+		padding-top: 55px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.meditation {
+		margin: auto 5%;
+	}
+}

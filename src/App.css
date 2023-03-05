@@ -1,38 +1,51 @@
 .App {
-  text-align: center;
+	text-align: center;
+	color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+	border: 1px solid #ffffff;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 0, 0, 1) 0%,
+		rgba(255, 154, 0, 1) 10%,
+		rgba(208, 222, 33, 1) 20%,
+		rgba(79, 220, 74, 1) 30%,
+		rgba(63, 218, 216, 1) 40%,
+		rgba(47, 201, 226, 1) 50%,
+		rgba(28, 127, 238, 1) 60%,
+		rgba(95, 21, 242, 1) 70%,
+		rgba(186, 12, 248, 1) 80%,
+		rgba(251, 7, 217, 1) 90%,
+		rgba(255, 0, 0, 1) 100%
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.description .btn:hover {
+	color: rgb(23, 21, 51);
 }
 
-.App-link {
-  color: #61dafb;
+.row img.img-fluid {
+	width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

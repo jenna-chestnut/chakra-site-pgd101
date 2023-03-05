@@ -1,0 +1,55 @@
+.quiz-page {
+	background-image: url('../../img/northern-lights.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.quiz-header {
+	background: none;
+}
+
+.quiz-page header h2 {
+	font-family: Geomanist;
+	color: #ffffff;
+	font-size: 2.3rem;
+}
+
+.quiz-page p {
+	text-align: center;
+}
+
+button.quiz-button {
+	margin: 45px auto;
+	background-color: #00bb28;
+  border-color: white;
+}
+
+.form-check {
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.inputs-container {
+	padding: 0px 15%;
+	padding-top: 25px;
+}
+
+.name-label {
+	margin-bottom: 15px;
+	font-size: 1.4rem;
+	display: block;
+	text-align: left;
+	margin-left: 15px;
+}
+
+.quiz-page form p {
+	text-align: left;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+	.inputs-container {
+		padding: 0px 5%;
+	}
+}

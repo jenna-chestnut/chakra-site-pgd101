@@ -1,0 +1,33 @@
+.chakra-SVG {
+	max-width: 50px;
+	margin: auto;
+  padding-bottom: 40px;
+}
+
+.chakra-row-mobile {
+  display: none;
+}
+
+svg {
+	max-height: 50px;
+	transition: all 1s ease-in-out;
+  vertical-align: middle;
+}
+
+svg:hover {
+	transform: scale(2);
+}
+
+@media screen and (max-width: 992px) {
+	.chakra-row-mobile {
+    display: inline;
+  }
+  .chakra-row-desktop {
+    display: none;
+  }
+  .chakra-SVG {
+    max-width: 40px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+}

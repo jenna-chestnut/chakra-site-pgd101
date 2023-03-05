@@ -1,0 +1,12 @@
+.resources-page .description {
+  padding: 75px 5%;
+}
+
+.resources-page a {
+  color: rgb(120, 239, 255);
+  text-decoration: none;
+}
+
+.resources-page a:hover {
+  color: rgb(0, 225, 255);
+}
